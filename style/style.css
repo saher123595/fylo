@@ -19,8 +19,9 @@ body {
     display: flex;
     padding: 20px;
     justify-content: space-between;
-    position: relative;
-    z-index: 11;
+    z-index: 22200;
+    position: fixed;
+    width: 97%;
 }
 
 .container-fluid nav img {

@@ -16,12 +16,11 @@ body {
 }
 
 .container-fluid nav {
-    display: flex;
+     display: flex;
     padding: 20px;
     justify-content: space-between;
-    z-index: 22200;
-    position: fixed;
-    width: 97%;
+    position: relative;
+    z-index: 11;
 }
 
 .container-fluid nav img {

@@ -216,7 +216,27 @@ body {
     margin-left: 10px;
     font-weight: 900;
 }
-
+@media (max-width:731px) {
+    .container-fluid .row .vh div {
+        display: inline-block;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-weight: 900;
+        font-size: 13px;
+    }
+    .container-fluid .row .vh {
+        color: #FFF;
+        background-color: rgb(35, 39, 61);
+        margin: 10px 5px;
+        padding: 20px 30px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 900;
+        position: relative;
+        z-index: 1;
+    }
+}
 .black {
     color: #AAA;
     font-weight: 900;
@@ -281,7 +301,7 @@ body {
 
 @media (max-width:731px) {
     .get-early input {
-        width: 70%;
+        width: 100%;
         padding: 10px 15px;
         border-radius: 25px;
         outline: 0;
@@ -289,7 +309,7 @@ body {
         color: #000;
         font-weight: bold;
         margin-top: 20px;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     .get-early button {
         padding: 10px 15px;
@@ -299,7 +319,8 @@ body {
         background-color: hsl(227, 92%, 81%);
         color: #FFF;
         margin-top: 20px;
-        width: 70%;
+        width: 100%;
+        font-size: 12px;
     }
 }
 

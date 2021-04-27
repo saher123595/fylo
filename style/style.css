@@ -89,6 +89,7 @@ body {
 .container-fluid .child {
     z-index: 1111;
     position: relative;
+    top: 100px;
 }
 
 .container-fluid .child img {

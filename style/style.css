@@ -15,11 +15,14 @@ body {
 }
 
 .container-fluid nav {
-     display: flex;
-    padding: 20px;
+    display: flex;
     justify-content: space-between;
-    position: relative;
-    z-index: 11;
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 1221;
 }
 
 .container-fluid nav img {
@@ -87,6 +90,7 @@ body {
 .container-fluid .child {
     z-index: 1111;
     position: relative;
+    margin-top: 100px;
 }
 
 .container-fluid .child img {
